@@ -57,3 +57,5 @@ def calculate_demographic_data(print_data=True):
         print("Top occupations in India:", top_IN_occupation)
 
     return result
+if __name__ == "__main__":
+    calculate_demographic_data(print_data=True)
